@@ -23,4 +23,5 @@ node_modules/
 #//////////////////////////
 .idea/
 
-extensions/ccc_scriptableobject
+extensions/ccc_scriptableobject/**
+extensions/scriptable-asset/**
