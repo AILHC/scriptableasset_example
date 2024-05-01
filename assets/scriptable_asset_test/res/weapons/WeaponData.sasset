@@ -1,0 +1,12 @@
+{
+  "__type__": "3cbe5CF3VtAIKHoC48GYaDC",
+  "_name": "WeaponData",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "weaponSkill": {
+    "__uuid__": "e687e6b3-a836-4803-b644-1ba5464c3d38",
+    "__expectedType__": "2a163OzC2ZJv5z42OdJggOR"
+  },
+  "dmg": 111
+}

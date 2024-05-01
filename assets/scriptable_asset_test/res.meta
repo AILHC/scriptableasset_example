@@ -1,0 +1,12 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "488a3614-6e58-4b7d-8c5e-4cd2dd2b5d7a",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "scriptable_asset_test_res"
+  }
+}

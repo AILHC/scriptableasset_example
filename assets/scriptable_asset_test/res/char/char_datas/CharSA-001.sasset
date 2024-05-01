@@ -1,0 +1,17 @@
+[
+  {
+    "__type__": "78169UKNrpB44SIxiEjaFRX",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "skills": [],
+    "sprite": null,
+    "charProp": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "CharProp"
+  }
+]

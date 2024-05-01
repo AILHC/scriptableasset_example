@@ -1,0 +1,36 @@
+[
+  {
+    "__type__": "78169UKNrpB44SIxiEjaFRX",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "__scriptUuid": "7816950a-36ba-41e3-8488-c62123685457",
+    "skills": [
+      {
+        "__uuid__": "e687e6b3-a836-4803-b644-1ba5464c3d38",
+        "__expectedType__": "2a163OzC2ZJv5z42OdJggOR"
+      }
+    ],
+    "sprite": {
+      "__uuid__": "655bb8c6-fb4b-4375-9d88-f3837114114f@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "charName": "零零7",
+    "weapon": {
+      "__uuid__": "fff30210-cef3-4ed6-8c23-d30eefd76686",
+      "__expectedType__": "3cbe5CF3VtAIKHoC48GYaDC"
+    },
+    "charProp": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "CharProp",
+    "hp": 700,
+    "curHp": 700,
+    "mp": 1000,
+    "curMp": 11,
+    "atk": 50
+  }
+]

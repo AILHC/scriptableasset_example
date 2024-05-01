@@ -1,0 +1,36 @@
+[
+  {
+    "__type__": "2b434Nd3yJEbaaHyDTbXM0F",
+    "_name": "NpcSA",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "npcName": "fdsaf",
+    "defaultSayAudio": {
+      "__uuid__": "1d88925d-a010-4afa-b6bb-a09474b2175b",
+      "__expectedType__": "cc.AudioClip"
+    },
+    "index": 124,
+    "targetNode": null,
+    "children": [
+      null,
+      null
+    ],
+    "text": "d",
+    "children2": [],
+    "_valueB": "abc",
+    "accx": 1,
+    "customData": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "CustomClass",
+    "index": 11,
+    "children": [
+      null,
+      null
+    ],
+    "text": "222"
+  }
+]

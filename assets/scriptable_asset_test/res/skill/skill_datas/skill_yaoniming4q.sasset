@@ -1,0 +1,22 @@
+{
+  "__type__": "2a163OzC2ZJv5z42OdJggOR",
+  "_name": "yaoniming4q",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "__is_scriptable_asset": true,
+  "skillName": "要你命四千",
+  "skillIcon": {
+    "__uuid__": "655bb8c6-fb4b-4375-9d88-f3837114114f@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "skillEff": {
+    "__uuid__": "5ec2d08e-e40a-407a-b6dd-86a788b363f3",
+    "__expectedType__": "cc.Prefab"
+  },
+  "skillAudio": {
+    "__uuid__": "5c50e5d2-6fbb-49f6-ac1c-e5fc6996bcf2",
+    "__expectedType__": "cc.AudioClip"
+  },
+  "skilDmg": 1000
+}

@@ -1,0 +1,10 @@
+import { _decorator, Component, Node } from 'cc';
+const { ccclass, property } = _decorator;
+import { bh } from "db://ccc_scriptableobject/scriptable_runtime";
+
+
+@bh.ccclass('<%CamelCaseClassName%>')
+@bh.createAssetMenu("<%CamelCaseClassName%>","CreateSA/<%CamelCaseClassName%>")
+export class <%CamelCaseClassName%> extends bh.ScriptableAsset {
+    
+}
