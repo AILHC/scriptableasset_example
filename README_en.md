@@ -15,6 +15,9 @@ Just like configuring `prefab` `component` data normally, but without the need f
 | ✔   | ✔                | ✘              | ✘          | ✔               | ✘              | ✘              |
 
 ## Usage
+### Example Project
+Gitee [scriptableasset_example](https://gitee.com/AIGAMESTUDIO.AILHC/scriptableasset_example)
+GitHub [scriptableasset_example](https://github.com/AILHC/scriptableasset_example)
 ### Creation
 > Automatically added to the right-click menu, create custom type data files
 

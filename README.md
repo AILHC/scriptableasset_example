@@ -15,7 +15,13 @@
 | --- | ----- | --------- | ----- | ----- | ------- | ------- |
 | ✔   | ✔     | ✘         | ✘     | ✔     | ✘       | ✘       |
 
+
+
 ## 使用
+### 示例项目
+
+Gitee [scriptableasset_example](https://gitee.com/AIGAMESTUDIO.AILHC/scriptableasset_example)
+GitHub [scriptableasset_example](https://github.com/AILHC/scriptableasset_example)
 ### 创建
 >自动添加到右键菜单，创建自定义类型数据文件
 
@@ -35,7 +41,7 @@
 #### 已知问题
 - 自定义且用ccclass装饰器的类，非继承Component的，比如CustomClasss，需要赋予初始值
 ### 引用和加载
->和其他资源(cc.Prefab、cc.AudioClip、等)一样，引用加载
+>和其他资源(cc.Prefab、cc.AudioClip、等)一样，进行引用和加载，以及对依赖资源加载，无需而外处理
 
 #### 被引用
 ```typescript
