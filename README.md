@@ -9,7 +9,7 @@
 
 和平时配置`prefab`的`component`数据一样，但不需要节点，不需要挂组件
 
-## 已测试平台
+## 测试的发布平台
 
 | H5  | 微信小游戏 | Android原生 | iOS原生 | 抖音小游戏 | OPPO小游戏 | vivo小游戏 |
 | --- | ----- | --------- | ----- | ----- | ------- | ------- |
@@ -136,6 +136,8 @@ export class TestLoadScriptableAssetDynamic extends Component {
 }
 ```
 
+
+- 支持3.8.2版本的引擎
 
 
 ## 其他作品

@@ -1,0 +1,26 @@
+[
+  {
+    "__type__": "2b434Nd3yJEbaaHyDTbXM0F",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "npcName": "",
+    "index": 0,
+    "targetNode": null,
+    "children": [],
+    "text": "",
+    "children2": [],
+    "_valueB": "abc",
+    "accx": 0,
+    "customData": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "CustomClass",
+    "index": 0,
+    "children": [],
+    "text": ""
+  }
+]

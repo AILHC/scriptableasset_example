@@ -122,6 +122,8 @@ export class TestLoadScriptableAssetDynamic extends Component {
 
 
 
+- Only Support 3.8.2
+
 ## Other Works
 
 - Editor Console Enhancer Plugin [EditorConsoleEnhancer](https://store.cocos.com/app/detail/6147)
