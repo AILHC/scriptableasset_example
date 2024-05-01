@@ -6,6 +6,8 @@
   "files": [],
   "subMetas": {},
   "userData": {
-    "bundleFilterConfig": []
+    "bundleFilterConfig": [],
+    "compressionType": {},
+    "isRemoteBundle": {}
   }
 }

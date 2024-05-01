@@ -5,5 +5,8 @@
   "uuid": "250e6e0d-6b96-4b79-8b5f-8e3ccc0135b7",
   "files": [],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": {}
+  }
 }
