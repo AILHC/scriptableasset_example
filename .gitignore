@@ -24,3 +24,4 @@ node_modules/
 .idea/
 
 publish/**/*.zip
+引用路径记录.txt
