@@ -1,0 +1,39 @@
+[
+  {
+    "__type__": "78169UKNrpB44SIxiEjaFRX",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "skills": [
+      {
+        "__uuid__": "4d83e4f8-6c8c-4ceb-a07c-9b2e42ff44d8",
+        "__expectedType__": "2a163OzC2ZJv5z42OdJggOR"
+      },
+      {
+        "__uuid__": "e687e6b3-a836-4803-b644-1ba5464c3d38",
+        "__expectedType__": "2a163OzC2ZJv5z42OdJggOR"
+      }
+    ],
+    "sprite": {
+      "__uuid__": "97ca753f-3f51-4f9d-8e40-20a6f55b9dbb@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "charName": "测试",
+    "weapon": {
+      "__uuid__": "fff30210-cef3-4ed6-8c23-d30eefd76686",
+      "__expectedType__": "3cbe5CF3VtAIKHoC48GYaDC"
+    },
+    "charProp": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "CharProp",
+    "hp": 12,
+    "curHp": 22,
+    "mp": 222,
+    "curMp": 22,
+    "atk": 1
+  }
+]

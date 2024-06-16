@@ -5,11 +5,14 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
-    "skills": [],
-    "sprite": {
-      "__uuid__": "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "skills": [
+      {
+        "__uuid__": "4d83e4f8-6c8c-4ceb-a07c-9b2e42ff44d8",
+        "__expectedType__": "2a163OzC2ZJv5z42OdJggOR"
+      }
+    ],
+    "sprite": null,
+    "charName": "",
     "weapon": null,
     "charProp": {
       "__id__": 1
