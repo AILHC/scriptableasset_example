@@ -3,8 +3,9 @@ const { ccclass, property } = _decorator;
 import { bh } from "db://scriptable-asset/scriptable_runtime";
 
 
-@bh.ccclass('<%CamelCaseClassName%>')
+
 @bh.createAssetMenu("<%CamelCaseClassName%>","CreateSA/<%CamelCaseClassName%>")
+@bh.scriptable('<%CamelCaseClassName%>')
 export class <%CamelCaseClassName%> extends bh.ScriptableAsset {
     
 }
