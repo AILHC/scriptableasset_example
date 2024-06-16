@@ -2,7 +2,7 @@
   "name": "scriptableobject_impl",
   "uuid": "72fabd76-4df0-4e25-b2b8-50aac4c3a5a2",
   "creator": {
-    "version": "3.8.2"
+    "version": "3.8.3"
   },
   "scripts": {
     "pushMain": "git push gitee main:main && git push github main:main"

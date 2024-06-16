@@ -12,7 +12,16 @@ Just like configuring `prefab` `component` data normally, but without the need f
 
 | H5  | WeChat Mini Game | Android Native | iOS Native | TikTok Mini Game | OPPO Mini Game | vivo Mini Game |
 | --- | ---------------- | -------------- | ---------- | --------------- | -------------- | -------------- |
-| ✔   | ✔                | ✘              | ✘          | ✔               | ✘              | ✘              |
+| ✔   | ✔                | ✔              | ✔          | ✔               | ✔              | ✔              |
+## Features and Planning
+- [x] Custom ScriptableAsset Types
+- [x] Preview and Edit
+- [x] Drag and Drop Assignment to Component Fields (Recognition of Specified Custom ScriptableAsset Types)
+- [x] Add Right-Click Creation Button Using Decorators
+- [x] Compatible with 3.7.x
+- [x] Test on more publishing platforms
+- [ ] Support for Search
+- [ ] Support for Custom ScriptableAsset Inspector
 
 ## Usage
 ### Example Project
@@ -20,20 +29,20 @@ Gitee [scriptableasset_example](https://gitee.com/AIGAMESTUDIO.AILHC/scriptablea
 GitHub [scriptableasset_example](https://github.com/AILHC/scriptableasset_example)
 ### Creation
 > Automatically added to the right-click menu, create custom type data files
+>ps: You need to copy the example script template to your project: `.creator\asset-template\typescript\ScriptableAssetScriptTemplate`.
 
-![Create Resource.gif](https://cdn.jsdelivr.net/gh/ailhc/picture/img%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90.gif)
+![Create Resource.gif](https://testingcf.jsdelivr.net/gh/ailhc/picture/img%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90.gif)
 
 ### Visual Configuration Modification
 > Modifying configuration is the same as modifying the field data of a Component
 
 Any property decorator provided by CocosCreator can be used
 
-![Modify Resource.gif](https://cdn.jsdelivr.net/gh/ailhc/picture/img%E4%BF%AE%E6%94%B9%E8%B5%84%E6%BA%90.gif)
+![Modify Resource.gif](https://testingcf.jsdelivr.net/gh/ailhc/picture/img%E4%BF%AE%E6%94%B9%E8%B5%84%E6%BA%90.gif)
 
 For more usage: [Cocos Creator 3.8 Manual - Decorator Usage](https://docs.cocos.com/creator/manual/zh/scripting/decorator.html#type-%E5%8F%82%E6%95%B0)
 
-#### Known Issues
-- Custom classes decorated with the `ccclass` decorator that do not inherit from Component, such as CustomClass, need to be assigned an initial value
+
 
 ### Referencing and Loading
 > Just like other resources (cc.Prefab, cc.AudioClip, etc.), reference and load
@@ -67,14 +76,8 @@ export class TestRefScriptableAsset extends Component {
 ```
 
 Interface
-![image.png](https://cdn.jsdelivr.net/gh/ailhc/picture/img202404302045386.png)
+![image.png](https://testingcf.jsdelivr.net/gh/ailhc/picture/img202404302045386.png)
 
-##### Known Issues
-- Using a specific ScriptableAsset type will cause the search function next to the field assignment to not find results. You need to use the base class ScriptableAsset as the type for the field decorator, or use `@bh.scriptableAsset` to mark it directly
-    ```ts
-    @bh.scriptableAsset
-    charData: CharSA;
-    ```
 
 #### Dynamic Loading
 
@@ -119,10 +122,19 @@ export class TestLoadScriptableAssetDynamic extends Component {
     }
 }
 ```
+## Known Issues
 
+- Custom classes that are decorated with the `ccclass` decorator and do not inherit from `Component`, such as `CustomClass`, require an initial value to be assigned.
 
+- Using a specific `ScriptableAsset` type may cause the field assignment's adjacent search functionality to not return any results. It is necessary to use the base class `ScriptableAsset` as the type for the field decorator, or to use `@bh.scriptableAsset` directly for marking.
+    ```ts
+    @bh.scriptableAsset
+    charData: CharSA;
+    ```
 
-- Only Support 3.8.2
+- Deleting the `ScriptableAsset` script will cause dependent locations to display as `UnknownType`. After restoring the script, restarting the editor will resolve the issue.
+
+- Only Support 3.8.x
 
 ## Other Works
 
@@ -145,7 +157,7 @@ export class TestLoadScriptableAssetDynamic extends Component {
 QQ Group: 1103157878
 ### Follow the Author for More Content
 Search for the WeChat public account: 玩转游戏开发 (Play around with game development)
-Or scan the QR code to follow: <img src="https://cdn.jsdelivr.net/gh/ailhc/picture/img202404011944623.png" alt="img" style="zoom:50%;" />
+Or scan the QR code to follow: <img src="https://testingcf.jsdelivr.net/gh/ailhc/picture/img202404011944623.png" alt="img" style="zoom:50%;" />
 
 ## Copyright Notice
 
@@ -156,6 +168,14 @@ This engine plugin (hereinafter referred to as the "Plugin") is developed by mys
 This template is a virtual product. Please read the description carefully and think it through before making a purchase. No refunds will be issued after purchase.
 
 ## CHANGELOG
+
+### `v1.0.3`
+- Compatible with 3.7.x
+- Fixed the issue with broken document image links
+
+### `v1.0.2`
+
+Compatibility: Cocos Creator 3.8.3
 
 ### `v1.0.1`
 

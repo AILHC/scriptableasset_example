@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.8",
+  "__version__": "1.0.9",
   "modules": {
     "cache": {
       "base": {
@@ -118,10 +118,10 @@
       "marionette": {
         "_value": true
       },
-      "procedural-animation": {
-        "_value": true
-      },
       "custom-pipeline": {
+        "_value": false
+      },
+      "procedural-animation": {
         "_value": true
       }
     },
@@ -131,7 +131,6 @@
       "animation",
       "audio",
       "base",
-      "custom-pipeline",
       "debug-renderer",
       "dragon-bones",
       "geometry-renderer",
@@ -140,6 +139,7 @@
       "intersection-2d",
       "light-probe",
       "marionette",
+      "meshopt",
       "occlusion-query",
       "particle",
       "particle-2d",

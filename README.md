@@ -9,12 +9,28 @@
 
 和平时配置`prefab`的`component`数据一样，但不需要节点，不需要挂组件
 
+## 引擎版本支持
+
+`>= 3.7.0`
+3.7.x的对于显示有些问题
+![](https://testingcf.jsdelivr.net/gh/ailhc/picture/img/202406161041418.png)
+不影响正常使用
+
 ## 测试的发布平台
 
 | H5  | 微信小游戏 | Android原生 | iOS原生 | 抖音小游戏 | OPPO小游戏 | vivo小游戏 |
-| --- | ----- | --------- | ----- | ----- | ------- | ------- |
-| ✔   | ✔     | ✘         | ✘     | ✔     | ✘       | ✘       |
+| --- | --------- | ----------- | ------- | -------- | ------- | ------- |
+| ✔   | ✔        | ✔           | ✔       | ✔       | ✔       | ✔       |
 
+## 特性和规划
+- [x] 自定义ScriptableAsset类型
+- [x] 预览和编辑
+- [x] 拖拽赋值到组件字段(指定自定义ScriptableAsset类型)识别
+- [x] 使用装饰器添加右键创建按钮
+- [x] 兼容3.7.x
+- [x] 测试更多发布平台
+- [ ] 支持搜索
+- [ ] 支持自定义ScriptableAsset的Inspector
 
 
 ## 使用
@@ -24,8 +40,9 @@ Gitee [scriptableasset_example](https://gitee.com/AIGAMESTUDIO.AILHC/scriptablea
 GitHub [scriptableasset_example](https://github.com/AILHC/scriptableasset_example)
 ### 创建
 >自动添加到右键菜单，创建自定义类型数据文件
+>ps:需要复制示例的脚本模板到项目中：`.creator\asset-template\typescript\ScriptableAssetScriptTemplate`
 
-![创建资源.gif](https://cdn.jsdelivr.net/gh/ailhc/picture/img%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90.gif)
+![创建资源.gif](https://testingcf.jsdelivr.net/gh/ailhc/picture/img%E5%88%9B%E5%BB%BA%E8%B5%84%E6%BA%90.gif)
 
 
 ### 可视化修改配置
@@ -33,13 +50,12 @@ GitHub [scriptableasset_example](https://github.com/AILHC/scriptableasset_exampl
 
 可以使用任何CocosCreator提供的属性装饰器
 
-![修改资源.gif](https://cdn.jsdelivr.net/gh/ailhc/picture/img%E4%BF%AE%E6%94%B9%E8%B5%84%E6%BA%90.gif)
+![修改资源.gif](https://testingcf.jsdelivr.net/gh/ailhc/picture/img%E4%BF%AE%E6%94%B9%E8%B5%84%E6%BA%90.gif)
 
 
 参考更多用法：[Cocos Creator 3.8 手册 - 装饰器使用](https://docs.cocos.com/creator/manual/zh/scripting/decorator.html#type-%E5%8F%82%E6%95%B0)
 
-#### 已知问题
-- 自定义且用ccclass装饰器的类，非继承Component的，比如CustomClasss，需要赋予初始值
+
 ### 引用和加载
 >和其他资源(cc.Prefab、cc.AudioClip、等)一样，进行引用和加载，以及对依赖资源加载，无需而外处理
 
@@ -81,14 +97,9 @@ export class TestRefScriptableAsset extends Component {
 }
 ```
 界面
-![image.png](https://cdn.jsdelivr.net/gh/ailhc/picture/img202404302045386.png)
+![image.png](https://testingcf.jsdelivr.net/gh/ailhc/picture/img202404302045386.png)
 
-##### 已知问题
-- 使用具体的ScriptableAsset类型会字段赋值旁边的打开搜索功能会搜索不到，需要使用基类ScriptableAsset作为字段装饰器类型，或者直接使用`@bh.scriptableAsset`来标记
-	```ts
-	@bh.scriptableAsset
-    charData: CharSA;
-	```
+
 
 #### 动态加载
 
@@ -136,6 +147,16 @@ export class TestLoadScriptableAssetDynamic extends Component {
 }
 ```
 
+## 已知问题
+
+- 自定义且用ccclass装饰器的类，非继承Component的，比如CustomClasss，需要赋予初始值
+
+- 使用具体的ScriptableAsset类型会字段赋值旁边的打开搜索功能会搜索不到，需要使用基类ScriptableAsset作为字段装饰器类型，或者直接使用`@bh.scriptableAsset`来标记
+	```ts
+	@bh.scriptableAsset
+    charData: CharSA;
+	```
+- 删除ScriptableAsset脚本，会让依赖的地方显示为UnknownType，恢复脚本后，重启编辑器即可
 
 - 支持3.8.2版本的引擎
 
@@ -163,7 +184,7 @@ QQ群:1103157878
 
 微信搜索公众号:玩转游戏开发
 
-或扫码关注：<img src="https://cdn.jsdelivr.net/gh/ailhc/picture/img202404011944623.png" alt="img" style="zoom:50%;" />
+或扫码关注：<img src="https://testingcf.jsdelivr.net/gh/ailhc/picture/img202404011944623.png" alt="img" style="zoom:50%;" />
 
 ## 版权声明
 
@@ -174,6 +195,14 @@ QQ群:1103157878
 本产品为付费虚拟商品，一经购买成功概不退款，请在购买前谨慎确认购买内容。
 
 ## 更新日志
+
+### `v1.0.3`
+- 兼容 3.7.x
+- 修复文档图片链接失效问题
+
+### `v1.0.2`
+
+兼容3.8.3
 
 ### `v1.0.1`
 
