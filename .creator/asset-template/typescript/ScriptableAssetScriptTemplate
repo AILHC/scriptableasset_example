@@ -1,6 +1,6 @@
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
-import { bh } from "db://ccc_scriptableobject/scriptable_runtime";
+import { bh } from "db://scriptable-asset/scriptable_runtime";
 
 
 @bh.ccclass('<%CamelCaseClassName%>')
