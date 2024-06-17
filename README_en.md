@@ -134,13 +134,11 @@ export class TestLoadScriptableAssetDynamic extends Component {
 
 - Deleting the `ScriptableAsset` script will cause dependent locations to display as `UnknownType`. After restoring the script, restarting the editor will resolve the issue.
 
-- Only Support 3.8.x
-
 ## Other Works
 
-- Editor Console Enhancer Plugin [EditorConsoleEnhancer](https://store.cocos.com/app/detail/6147)
-- Makes your 5000+ resource project development as light and smooth as a swallow. [Aswallow](https://store.cocos.com/app/zh/detail/2948)
-- [Perfect TypeScript Plugin Template][Cocos Store](https://store.cocos.com/app/detail/2736)
+- Editor Console Enhancer Plugin [EditorConsoleEnhancer](https://store.cocos.com/app/en/detail/6147)
+- Makes your 5000+ resource project development as light and smooth as a swallow. [Aswallow](https://store.cocos.com/app/en/detail/2948)
+- [Perfect TypeScript Plugin Template][Cocos Store](https://store.cocos.com/app/en/detail/2736)
 
 # Contact
 ### Email Feedback
@@ -161,7 +159,7 @@ Or scan the QR code to follow: <img src="https://testingcf.jsdelivr.net/gh/ailhc
 
 ## Copyright Notice
 
-This engine plugin (hereinafter referred to as the "Plugin") is developed by myself. The ownership and intellectual property rights of the Plugin are solely owned by me. The Plugin shall not be re-published in any form or by any means.
+This engine plugin (hereinafter referred to as the "Plugin") is developed by myself. The ownership and intellectual property rights of the Plugin are solely owned by me. The Plugin must not be re-published.
 
 ## Disclaimer
 
