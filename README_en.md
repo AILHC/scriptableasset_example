@@ -166,6 +166,9 @@ This engine plugin (hereinafter referred to as the "Plugin") is developed by mys
 This template is a virtual product. Please read the description carefully and think it through before making a purchase. No refunds will be issued after purchase.
 
 ## CHANGELOG
+### `v1.0.4`
+- Optimized documentation
+- Modified editor compatibility in `package.json`
 
 ### `v1.0.3`
 - Compatible with 3.7.x
