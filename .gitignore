@@ -25,3 +25,4 @@ node_modules/
 
 publish/**/*
 引用路径记录.txt
+extensions/scriptable-asset
